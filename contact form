@@ -1,0 +1,35 @@
+
+
+<div class="container" id="form">
+	<div class="col-md-6">
+		<label> Your Name (required)
+		    [text* your-name id:formInput] </label>
+
+		<label> Your Email Address (required)
+		    [email* your-email id:formInput] </label>
+
+		<label> Contact Number
+		    [tel telephone id:formInput] </label>
+
+		<label> Business Name
+		    [text your-subject id:formInput] </label>
+
+		<label> Business Website
+		    [text business-website id:formInput] </label>
+	</div>
+	<div class="col-md-6">
+		<label> Describe your project.
+		    [textarea your-message id:formDescription] </label>
+	</div>
+</div>
+<div class="container" id="form">
+<p style="padding: 5px; text-align: center;">How can we help you? (Choose at least one)</p>	
+	<div class="col-md-6" id="formCheck">
+			[checkbox WebDevOptions id:formCheck "Website redesign" "New website" "E-commerce" "Complex Site" "Web Application"]
+	</div>
+	<div class="col-md-6" id="formCheck">>
+			[checkbox DesignOptions id:formCheck "Photos/Video" "Branding/Logo" "Social media" "Pay-per-click Ads" "Search engine optimization"]
+	</div>
+</div>
+
+[submit "Send"]

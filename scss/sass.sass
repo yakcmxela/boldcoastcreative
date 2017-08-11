@@ -1,0 +1,627 @@
+$primary-font: Quicksand, sans-serif
+$secondary-font: Lato, sans-serif
+$black: black
+$white: white
+$slate: #4a4a4a
+$dark-blue: #5f9ca1
+$light-blue: #73b0b5
+$lightest-blue: #77c9d4
+$dark-gold: #a89e68
+$light-gold: #e0d894
+$sp-xxl: 25%
+$sp-xl: 15%
+$sp-l: 10%
+$sp-m: 5%
+$sp-s: 2%
+$sp-xs: 1%
+=transition($transition)
+	-webkit-transition: $transition
+	-o-transition: $transition
+	-moz-transition: $transition
+	-ms-transition: $transition
+	transition: $transition
+
+html, body
+	height: 100%
+	margin: 0
+	padding: 0
+	font-family: $primary-font
+	box-sizing: border-box
+
+p 
+	font-size: 1.1rem
+
+h1
+	font-size: 72px
+	font-weight: 100
+	margin: 0
+
+h2
+	font-size: 36px
+	margin-bottom: 30px
+ul
+	padding-left: 0
+
+li
+	list-style: none
+a
+	color: inherit
+
+.right-lg
+	text-align: right
+.right-sm
+	text-align: right
+
+.left-lg
+	text-align: left
+	padding-left: 20px
+
+.center
+	text-align: center
+
+.top-center
+	background-position: top center
+
+.center-center
+	background-position: center center
+
+.bottom-center
+	background-position: bottom center
+
+.py-xl
+	padding-top: $sp-l
+	padding-bottom: $sp-l
+
+.py-m
+	padding-top: $sp-m
+	padding-bottom: $sp-m
+
+.p-xl 
+	padding: $sp-l $sp-l
+
+.px-xl
+	padding: $sp-l 0
+
+.mw-6
+	max-width: 600px
+
+.mw-9
+	max-width: 900px
+
+.no-py
+	padding-top: 0 !important
+	padding-bottom: 0 !important
+
+.no-px
+	padding-right: 0px !important
+	padding-left: 0px !important
+
+.no-p
+	padding: 0 !important
+
+.page-width
+	padding: 0px $sp-l
+	position: relative
+
+.light-blue-bg
+	background-color: $light-blue
+	color: white
+
+.dark-blue-bg
+	background-color: $dark-blue
+	color: white
+
+.logo
+	max-width: 487px
+
+.banner
+	height: 670px
+
+.title
+	position: absolute
+	top: 50%
+	transform: translateY(-50%)
+	left: 0
+	right: 0
+	margin: auto
+
+.navMobile
+	display: none !important
+
+.navBars
+	color: $dark-blue
+	margin: 11%
+
+.mobileMenuMainContainer
+	position: absolute
+	top: 75px
+	left: 0
+	+transition(.2s height ease-in)
+	height: 0
+	width: 100%
+	background-color: white
+	overflow: hidden
+	padding: 0
+	z-index: 10
+	box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.1), 0px 10px 20px -10px rgba(0, 0, 0, .2)
+
+
+.mobileMenuMain
+	padding: 0px 12px
+
+.mobileMenuMain li
+	padding: 10px
+	letter-spacing: 2px
+
+.mobileMenuMainContainer.Active
+	height: 347px
+
+.mobile-nav-logo
+	text-align: right
+
+.mobile-nav-logo img
+	height: 45px
+
+.mobileCall
+	background-color: $lightest-blue
+	padding: 20px 20px 20px 30px
+	text-align: center
+
+.mobileCall i, .mobileEmail i
+	color: white
+
+.mobileEmail
+	background-color: $dark-gold
+	color: white
+	padding: 20px 30px 20px 20px
+	text-align: center
+
+#navDesktop
+	display: block
+
+.bold-nav
+	text-align: center
+
+.nav-title
+	width: 415px
+	letter-spacing: 12px
+	margin: auto
+	p 
+		color: $dark-gold
+		+transition(color .25s ease-in)
+		margin-right: -10px
+		text-transform: uppercase
+	p:hover
+		color: $light-gold
+
+.nav-links
+	display: inline-block
+	ul
+		margin-bottom: 0
+	li
+		display: inline-block
+		padding: 1rem
+		background-color: $dark-blue
+		color: $white
+		+transition(all .15s ease-in)
+	li:hover
+		background-color: $white
+		color: $dark-blue
+	a
+		color: inherit
+
+.contact-links
+	display: inline-block
+
+.contact-links li
+	padding-left: 22px
+	padding-right: 22px
+	background-color: $dark-gold
+
+.contact-links li:hover
+	color: $dark-gold
+
+.contactBanner 
+	background-size: cover
+	background-position: bottom center
+	background-repeat: no-repeat
+
+.nav-tweaks 
+	background-color: $white
+	li 
+		position: relative
+		padding: 10px 20px
+		font-size: 1.3em
+		display: inline-block
+		background-color: $white
+		color: $white
+		+transition(background-color .075s ease-in)
+
+	li:hover
+		background-color: white
+		color: $white
+
+	a:hover
+		color: $white
+		text-decoration: none
+
+.nav-icons 
+	background-color: $dark-blue
+	li
+		font-size: 1.3em
+		display: inline-block
+		background-color: $dark-blue
+		color: $light-blue
+		height: 51px 
+		width: 51px
+		padding: 9px
+		text-align: center
+		+transition(background-color .075s ease-in)
+	li:hover
+		background-color: $white
+		color: $dark-blue
+	a:hover
+		color: $dark-blue
+
+.m-neg
+	margin-left: -7%
+	margin-right: -7%
+
+.img-bg-2
+	position: relative
+	height: 200px
+	width: 100%
+	background-size: cover
+	background-position: center center
+
+.mobileBannerText
+	line-height: 50px
+
+.img-bg-6
+	position: relative
+	background-position: 50% 75%
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100%
+	height: 600px
+	box-shadow: inset 0px 11px 20px -10px rgba(0, 0, 0, .5), inset 0px -11px 20px -10px rgba(0, 0, 0, .5)
+
+.img-hov-exp
+	position: re
+	+transition(transform .125s ease-in)
+.img-hov-exp:hover
+	transform: scale(1.1)
+
+.blanket
+	position: absolute
+	left: 0
+	right: 0
+	width: 100%
+	height: 100%
+	background-color: rgba(255, 255, 255, .35)
+
+.block-shadow
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .1)
+
+.bg-w
+	background-color: $white
+
+.bg-dg
+	background-color: $dark-gold
+	color: $white
+
+.bg-lg
+	background-color: $light-gold
+	color: $white
+
+.bg-db
+	background-color: $dark-blue
+	color: $white
+
+.bg-lb
+	background-color: $light-blue
+	color: $white
+
+.call-to-action
+	width: 200px
+	height: 65px
+	cursor: pointer
+	box-shadow: 0px 10px 31px 0px rgba(0,0,0,0.1)
+	color: $white
+	text-align: center
+	font-weight: 600
+	padding-top: 18px
+	margin-top: 30px
+
+
+
+.call-to-action.Innactive
+
+
+.send-message
+
+
+.send-message.Active
+
+
+.cta-button
+	cursor: pointer
+	text-align: center
+	min-width: 300px
+	+transition(transform .075s ease-in)
+.cta-button .bg-prim p,
+.cta-button .bg-prim h1,
+.cta-button .bg-prim h2,
+.cta-button .bg-prim h3,
+.cta-button .bg-prim h4,
+.cta-button .bg-prim,
+.cta-button .bg-prim h5,
+.cta-button .bg-prim a,
+.cta-button .bg-prim li,
+.cta-button .bg-sec p,
+.cta-button .bg-sec h1,
+.cta-button .bg-sec h2,
+.cta-button .bg-sec h3,
+.cta-button .bg-sec h4,
+.cta-button .bg-sec h5,
+.cta-button .bg-sec a,
+.cta-button .bg-sec li,
+.cta-button .bg-tert p,
+.cta-button .bg-tert h1,
+.cta-button .bg-tert h2,
+.cta-button .bg-tert h3,
+.cta-button .bg-tert h4,
+.cta-button .bg-tert h5,
+.cta-button .bg-tert a,
+.cta-button .bg-tert li
+	transition: transform .075s ease-in, box-shadow .075s ease-in
+.cta-button:hover,
+.cta-button .bg-prim:hover,
+.cta-button .bg-sec:hover,
+.cta-button .bg-tert:hover,
+	transform: scale(1.05)
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, .2)
+	background-color: white
+.cta-button .bg-prim:hover p,
+.cta-button .bg-prim:hover h1,
+.cta-button .bg-prim:hover h2,
+.cta-button .bg-prim:hover h3,
+.cta-button .bg-prim:hover h4,
+.cta-button .bg-prim:hover h5,
+.cta-button .bg-prim:hover a,
+.cta-button .bg-prim:hover li
+	
+.cta-button .bg-sec:hover p,
+.cta-button .bg-sec:hover h1,
+.cta-button .bg-sec:hover h2,
+.cta-button .bg-sec:hover h3,
+.cta-button .bg-sec:hover h4,
+.cta-button .bg-sec:hover h5,
+.cta-button .bg-sec:hover a,
+.cta-button .bg-sec:hover li
+	
+.cta-button .bg-tert:hover p,
+.cta-button .bg-tert:hover h1,
+.cta-button .bg-tert:hover h2,
+.cta-button .bg-tert:hover h3,
+.cta-button .bg-tert:hover h4,
+.cta-button .bg-tert:hover h5,
+.cta-button .bg-tert:hover a,
+.cta-button .bg-tert:hover li
+	
+// Landing Page
+
+.img-desktop-container
+	position: relative
+	z-index: 10
+	background-color: $dark-blue
+	height: 95vh
+	overflow: hidden
+
+.text-cliff
+	position: absolute
+	bottom: 0
+	right: 0
+	z-index: 11
+	text-align: right
+
+.text-cliff h1
+	font-size: 233.2px
+	line-height: 160px
+	color: white
+	text-shadow: -3px -1px 10px rgba(0, 0, 0, 0.2)
+
+.text-cliff h3
+	margin-bottom: 0
+	z-index: 12
+
+.text-cliff span 
+	background-color: white
+	font-size: 82px
+	line-height: 102px
+	padding-left: 10px
+	z-index: 13
+	box-shadow: -10px 0px 10px -7px rgba(0, 0, 0, .2)
+
+.lp-gallery-img, .lp-gallery-img-lg
+	background-size: cover
+	background-repeat: no-repeat
+	height: 400px
+	z-index: 0
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, .1)
+	max-width: 100%
+	position: relative
+	z-index: 15
+
+.lp-gallery-txt, .lp-gallery-txt-right
+	position: absolute
+	left: 0
+	right: 0
+	margin: auto
+	text-align: center
+	top: -22px
+
+.lp-gallery-txt-right
+	right: 0
+
+.lp-gallery-txt span, .lp-gallery-txt-right span
+	font-size: 36px
+	color: $black
+	border: 5px solid $lightest-blue
+	padding: 10px
+	+transition(all .1s ease-in)
+	position: relative
+	background-color: $white
+
+.lp-gallery-txt a, .lp-gallery-txt-right a
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, .2)
+
+.lp-gallery-txt span:hover, .lp-gallery-txt-right span:hover
+	background-color: $lightest-blue
+	color: $white
+
+.img-album
+	height: 200px
+
+.img-mobile
+	display: none
+
+#lp-water
+	position: absolute
+	width: 100%
+	bottom: 0px
+	z-index: -1
+	height: 150px
+	background-color: $lightest-blue
+
+.img-desktop
+	max-width: 100%
+	overflow: hidden
+
+@media (max-width: 1600px)
+	.page-width
+		padding: 0px $sp-m
+	.img-desktop-container
+		height: 85vh
+
+@media (max-width: 1500px)
+	.img-desktop-container
+		height: 80vh
+
+@media (max-width: 1400px)
+	// .text-cliff span
+	// 	font-size: 90px
+	// 	line-height: 110px
+	.img-desktop-container
+		height: 75vh
+
+@media (max-width: 1300px)
+	.img-desktop-container
+		height: 70vh	
+
+@media (max-width: 1250px)
+	.page-width
+		padding: 0px $sp-s
+
+
+@media (max-width: 1199px)
+	.call-to-action
+		margin: auto
+		margin-top: 30px
+	.left-lg
+		text-align: center
+		margin: auto
+		padding-left: initial
+		padding: 10px
+	.left-lg p 
+		max-width: 500px
+		margin: auto
+	.right-lg
+		text-align: center
+		margin: auto
+	// .text-cliff span
+	// 	font-size: 64px
+	// 	line-height: 78px
+	.img-desktop-container
+		height: 45vh
+
+@media (max-width: 1100px)
+	.img-desktop-container
+		height: 45vh
+	.contactBanner
+		background-size: contain 
+		background-repeat: no-repeat
+		background-position: bottom center
+
+@media (max-width: 1000px)
+	.img-desktop-container
+		height: 45vh	
+
+@media (max-width: 900px)
+	.img-desktop-container
+		height: 45vh
+
+@media (max-width: 800px)
+	.img-desktop-container
+		height: 45vh
+
+@media (max-width: 768px)
+	.p-xl
+		padding: 10% 5%
+	.p-xl 
+		padding: 15% 5%
+	.text-cliff h1
+		font-size: 155px
+		line-height: 106px
+	.text-cliff span
+		font-size: 54px
+		line-height: 68px
+
+@media (max-width: 730px)
+	#navDesktop
+		display: none !important
+	.navMobile
+		display: flex !important
+
+@media (max-width: 700px)
+	.img-desktop-container
+		height: 40vh
+
+@media (max-width: 650px)
+	.text-cliff h1
+		font-size: 118.25px
+		line-height: 79px
+	.text-cliff span
+		font-size: 41px
+		line-height: 51px
+	.img-desktop-container
+		height: 45vh
+	.banner 
+		height: 70vh
+
+@media (max-width: 576px)
+	h2
+		font-size: 24px
+		margin-bottom: 30px
+	.page-width
+		padding: 0px $sp-xs
+	.lp-gallery-img
+		max-height: 250px
+	.lp-gallery-txt span, .lp-gallery-txt-right span
+		font-size: 18px
+	.img-desktop-container
+		height: 45vh
+	#lp-water
+		height: 125px
+
+@media (max-height: 568px)
+	// .text-cliff span
+	// 	font-size: 28px
+	// 	line-height: 35px
+
+	.img-desktop-container
+		height: 50vh
+
+@media (max-height: 480px)
+	.img-desktop-container
+		height: 60vh

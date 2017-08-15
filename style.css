@@ -24,7 +24,7 @@
 		text-decoration: none;
 	}
 	a:link {
-		color: #5f9ca1;
+		color: auto;
 		-webkit-transition: color .3s;
 	    transition: color .3s;
 	}
@@ -464,13 +464,6 @@
 			text-align: center;
 		}
 
-		.buttonContainer {
-			width: 200px;
-			margin: auto;
-			margin-top: 20px;
-		}
-
-
 		.contactBanner .CTA {
 			position: absolute;
 			left: 0;
@@ -574,7 +567,7 @@
 	}
 
 	.pageBanner {
-		height: 50%;
+		height: 50vh;
 		background-size: cover;
 		background-position: bottom center;
 		background-repeat: no-repeat;
@@ -636,31 +629,6 @@
 		padding: 20px 0px 20px 0px;
 	}
 
-	.aboutContents {
-		position: relative;
-		height: 1200px;
-		background-position: center center;
-	}
-
-	.letter {
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 100px;
-		width: 800px;
-		padding: 50px;
-		margin: 0 auto;
-		-webkit-box-shadow: 10px 10px 35px 0px rgba(133,133,133,0.36);
-        -moz-box-shadow: 10px 10px 35px 0px rgba(133,133,133,0.36);
-        box-shadow: 10px 10px 35px 0px rgba(133,133,133,0.36);
-	}
-
-	.letter p {
-		text-align: left;
-		line-height: 24px;
-		font-size: 14px;
-	}
-
 	.signatureImage {
 		width: 25%;
 	}
@@ -700,6 +668,7 @@
 
 	#contactContainer {
 		text-align: center;
+		overflow: hidden;
 		padding-top: 80px;
 	}
 
@@ -731,7 +700,7 @@
 		display: inline-block;
 		text-align: center;
 		overflow: hidden;
-		box-shadow: 10px 20px 15px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
 		border: 1px solid #73b0b5;
 	}
 
@@ -1016,24 +985,14 @@
 				}
 				
 
-			/* About Page */
-
-				.aboutContents {
-					height: 1200px;
-				}
-
-				.letter {
-					top: 100px;
-				}
-
-				.contactForm {
-					bottom: 200px;
-				}
-
 			/* Contact Page */
 
 				#contactContainer {
 					padding: 130px 0px 130px 0px;
+				}
+
+				.contactPageBanner {
+					background-attachment: initial;
 				}
 
 		}
@@ -1105,12 +1064,11 @@
 					top: 130px;
 				}
 
-				.aboutContents {
-					height: 1200px;
-				}
-
 			/* Contact Page */
 
+				.contactPageBanner {
+					background-attachment: initial;
+				}
 
 				#contactButtonMobile {
 					display: block;
@@ -1180,14 +1138,12 @@
 				display: block;
 				margin: auto;
 				text-align: center;
-				float: none;
 				width: 100%;
 				position: absolute;
-				bottom: 3%;
-				font-family: "Quicksand", sans-serif;
 				letter-spacing: 10px;
 				color: white;
-				top: 125px;
+				top: 50%;
+				transform: translateY(-100%);
 				font-size: 32px;
 				text-shadow: 1px 1px 1px #4f4f4f;
 				
@@ -1368,12 +1324,6 @@
                 box-shadow: 0px 0px 35px 0px rgba(133,133,133,0.36);
 			}
 
-			.aboutContents {
-				height: 1600px;
-				background-size: 200%;
-				background-position: top;
-			}
-
 			.signatureImage {
 				width: 50%;
 			}
@@ -1408,6 +1358,7 @@
 			}
 
 			.contactForm {
+				margin-top: 10%;
 				display: block;
 				position: relative;
 				padding: 10px;

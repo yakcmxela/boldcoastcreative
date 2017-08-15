@@ -3,12 +3,7 @@
 Template Name: contact-page
 
 */?>
-<head>
-<link href="/style.css" type="text/css" rel="stylesheet" />
-<title><?php bloginfo('name'); ?> | Contact us.</title>
-<meta name="description" content="Ready to start your project? Want to get a quote? Email, call, or send us a direct message today.">
-<meta name="keywords" content="">
-</head>
+
 <?php get_header(); ?>
 
 <?php
@@ -25,7 +20,6 @@ Template Name: contact-page
 
 ?>
 
-<body>
 
 <?php 
 if (have_posts()) :
@@ -33,7 +27,8 @@ if (have_posts()) :
       the_post();
          the_content();
          ?>
-
+    <div class="the-page">
+    
 		<div class="contactPageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')">
 			<div class="container" id="contactContainer">
 				<div class="contactForm" style="background-image: url('<?php echo $contactFormBG['url']; ?>')"">
@@ -54,7 +49,7 @@ if (have_posts()) :
 			</div>
 		</div>
 
-</body>
+	</div>
 
          
 <?php

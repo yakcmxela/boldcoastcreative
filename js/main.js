@@ -4,7 +4,13 @@ $(document).ready(function() {
 
 		$('.navBars').click(function() {
 			$('.mobileMenuMainContainer').toggleClass('Active');
+			$('.the-page').toggleClass('Hidden');
 		});
+
+		$('.mobileChat').click(function() {
+			$('.mobile-menu').toggleClass('Hidden');
+			$('.mobile-msg').toggleClass('Active');
+		})
 
 	// // Colorize photos on scroll
 

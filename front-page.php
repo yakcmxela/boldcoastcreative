@@ -32,7 +32,8 @@ if (have_posts()) :
 		$lpCliff = get_field('lpCliff');
 		$lpWater = get_field('lpWater');
 		$lpText = get_field('lpText');
-		$lpBold = get_field('lpBold');
+		$lpBoldBlue = get_field('lpBoldBlue');
+		$lpBoldGold = get_field('lpBoldGold');
 		$wallImage1 = get_field('wallImage1');
 		$wallImage2 = get_field('wallImage2');
 		$wallImage3 = get_field('wallImage3');
@@ -77,106 +78,103 @@ if (have_posts()) :
 
 		?>
 
+<div class="the-page">
+
 <!-- Top Banner -->
 
-<div class="banner" style="background-image: url('<?php echo $banner['url']; ?>');">
-	<div class="title">
-		<h1><?php echo $welcomeBannerTitle ?></h1>
+	<div class="banner" style="background-image: url('<?php echo $banner['url']; ?>');">
+		<div class="title">
+			<h1><?php echo $welcomeBannerTitle ?></h1>
+		</div>
+		<!-- <i class="fa fa-angle-double-down fa-3x" id="downArrowFP"></i> -->
 	</div>
-	<!-- <i class="fa fa-angle-double-down fa-3x" id="downArrowFP"></i> -->
+	<h1 class="mobileBannerText">Bold Coast Creative</h1>
+
+	<!-- Background -->
+
+	<div class="page-bg" style="background-image: url('<?php echo $webDevBanner['url']; ?>');">
+
+	<!-- Web Dev Block -->
+
+		<div class="d-xl-flex justify-content-center align-items-center p-xl center">
+			<div class="flex-item p-4">
+				<img class="img-desktop website-mockups" src="<?php echo $webdev1['url']; ?>">
+			</div>
+			<div class="flex-item left-lg">
+				<h2 class="m-0"><?php echo $webDevSnippetTitle ?></h2>
+				<h2>All devices.</h2>
+				<p><?php echo $webDevSnippet ?></p>
+				<a href="/website-development/" title="Link to Web Development Page">
+					<div class="call-to-action" id="webDevButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>');">
+						<p><?php echo $webDevCTA ?></p>
+					</div>
+					<div class="call-to-action" id="webDevHoverButton" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>');">
+						<p><?php echo $webDevCTA ?></p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	<!-- Style and Design -->
+
+		<a href="/design-media/">
+			<div class="img-desktop-container">
+				<img class="img-desktop" src="<?php echo $lpCliff['url']; ?>">
+				<img id="lp-bold-blue" class="lp-bold" src="<?php echo $lpBoldBlue['url']; ?>">
+				<img id="lp-bold-gold" class="lp-bold" src="<?php echo $lpBoldGold['url']; ?>">
+				<div id="lp-water" src="<?php echo $lpWater['url']; ?>"></div>
+			</div>
+			<img id="lp-bold-mobile" class="lp-bold" src="<?php echo $lpBoldBlue['url']; ?>">
+		</a>
+
+	<!-- Photography -->
+
+		<div class="container-fluid lp-gallery p-xl">
+			<div class="row no-gutters">
+				<div class="col-12 no-p lp-gallery-img bottom-center eff-gold" style="background-image: url('<?php echo $photography1['url']; ?>');">
+				</div> 
+				<div class="col-12 no-p lp-gallery-img center-center eff-gold" style="background-image: url('<?php echo $photography2['url']; ?>');">
+					<div class="lp-gallery-txt-right">
+						<h2><a href="design-media/"><span>Showcase Your Products</span></a></h2>
+					</div>
+				</div> 
+			</div>
+		</div>
+
+	<!-- Digital Marketing Block -->
+
+		<div class="d-xl-flex justify-content-center align-items-center px-xl center" style="padding-top: 0px; padding-bottom: 0px">
+			<div class="flex-item p-4">
+				<img class="img-desktop mw-9" src="<?php echo $jtImageMarketing['url'] ?>">
+			</div>
+			<div class="flex-item mw-6 left-lg">
+				<h2><?php echo $marketingSnippetTitle ?></h2>
+				<p><?php echo $marketingSnippet ?></p>
+				<a href="/digital-marketing/" title="Link to Digital Marketing Page">
+					<div class="call-to-action" id="marketingButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>');">
+						<p><?php echo $marketingCTA ?></p>
+					</div>
+					<div class="call-to-action" id="marketingHoverButton" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>');">
+						<p><?php echo $marketingCTA ?></p>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	<!-- Contact Us Block -->
+
+		<div class="contactBanner py-xl" style="background-image: url('<?php echo $contactBanner['url']; ?>');">
+			<div class="snippet" id="contactSnippet">
+				<h2 style="margin-bottom: 0px"><?php echo $contactSnippetTitle ?></h2>
+			</div>
+			<div id="contactFormFP" style="color: white"><?php echo do_shortcode('[contact-form-7 id="670" title="Contact Us"]'); ?>
+			</div>
+		</div>
+	         
+	</div>
 </div>
-<h1 class="mobileBannerText">Bold Coast Creative</h1>
-
-<!-- Background -->
-
-<div class="page-bg" style="background-image: url('<?php echo $webDevBanner['url']; ?>');">
-
-<!-- Web Dev Block -->
-
-	<div class="d-xl-flex justify-content-center align-items-center p-xl center">
-		<div class="flex-item p-4">
-			<img class="img-desktop website-mockups" src="<?php echo $webdev1['url']; ?>">
-		</div>
-		<div class="flex-item left-lg">
-			<h2 class="m-0"><?php echo $webDevSnippetTitle ?></h2>
-			<h2>All devices.</h2>
-			<p><?php echo $webDevSnippet ?></p>
-			<a href="/website-development/" title="Link to Web Development Page">
-				<div class="call-to-action" id="webDevButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>');">
-					<p><?php echo $webDevCTA ?></p>
-				</div>
-				<div class="call-to-action" id="webDevHoverButton" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>');">
-					<p><?php echo $webDevCTA ?></p>
-				</div>
-			</a>
-		</div>
-	</div>
-
-<!-- Style and Design -->
-
-	<div class="img-desktop-container">
-		<div class="text-cliff">
-			<h1 style="font-family: 'Work Sans', sans-serif;">BOLD</h1>
-			<h3><span>Styles &amp; <a href="/design/">Designs</a></span></h3>
-		</div>
-		<img class="img-desktop" src="<?php echo $lpCliff['url']; ?>">
-		<img id="lp-bold" src="<?php echo $lpBold['url']; ?>">
-		<img id="lp-water" src="<?php echo $lpWater['url']; ?>">
-		<img id="lp-text" src="<?php echo $lpText['url']; ?>">
-	</div>
 
 
-<!-- Photography -->
-
-	<div class="container-fluid lp-gallery p-xl">
-		<div class="row no-gutters">
-			<div class="col-12 no-p lp-gallery-img center-center eff-gold" style="background-image: url('<?php echo $photography4['url']; ?>');">
-			</div> 
-
-			<div class="col-12 no-p lp-gallery-img bottom-center eff-gold" style="background-image: url('<?php echo $photography1['url']; ?>');">
-				<div class="lp-gallery-txt">
-					<h2><a href="design-media/"><span>Exceptional Image Quality</span></a></h2>
-				</div>
-			</div> 
-			<div class="col-12 no-p lp-gallery-img center-center eff-gold" style="background-image: url('<?php echo $photography2['url']; ?>');">
-				<div class="lp-gallery-txt-right">
-					<h2><a href="design-media/"><span>Showcase Your Products</span></a></h2>
-				</div>
-			</div> 
-		</div>
-	</div>
-
-<!-- Digital Marketing Block -->
-
-	<div class="d-xl-flex justify-content-center align-items-center px-xl center" style="padding-top: 0px; padding-bottom: 0px">
-		<div class="flex-item p-4">
-			<img class="img-desktop mw-9" src="<?php echo $jtImageMarketing['url'] ?>">
-		</div>
-		<div class="flex-item mw-6 left-lg">
-			<h2><?php echo $marketingSnippetTitle ?></h2>
-			<p><?php echo $marketingSnippet ?></p>
-			<a href="/digital-marketing/" title="Link to Digital Marketing Page">
-				<div class="call-to-action" id="marketingButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>');">
-					<p><?php echo $marketingCTA ?></p>
-				</div>
-				<div class="call-to-action" id="marketingHoverButton" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>');">
-					<p><?php echo $marketingCTA ?></p>
-				</div>
-			</a>
-		</div>
-	</div>
-
-<!-- Contact Us Block -->
-
-	<div class="contactBanner py-xl" style="background-image: url('<?php echo $contactBanner['url']; ?>');">
-		<div class="snippet" id="contactSnippet">
-			<h2 style="margin-bottom: 0px"><?php echo $contactSnippetTitle ?></h2>
-		</div>
-		<div id="contactFormFP" style="color: white"><?php echo do_shortcode('[contact-form-7 id="670" title="Contact Us"]'); ?>
-		</div>
-	</div>
-         
-</div>
 <?php
    endwhile;
 endif;

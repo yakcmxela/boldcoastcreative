@@ -4,7 +4,6 @@ Template Name: info-page
 
 */?>
 
-<link href="/style.css" type="text/css" rel="stylesheet" />
 <?php get_header(); ?>
 
 <?php
@@ -24,7 +23,7 @@ if (have_posts()) :
 <body>
 
 <div class="infoPage" style="background-image: url('<?php echo $infoBackground['url'] ?>')">
-	<div class="infoBlock">
+	<div class="mw-9 m-auto p-5">
    		 <p><?php echo $infoPage ?></p>
 	</div>
 </div>

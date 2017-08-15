@@ -49,89 +49,86 @@ if (have_posts()) :
 
          ?>
 
-<body>
-<div class="pageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')"></div>
-<div class="intro">
-	<h2><?php echo $introCTA ?></h2>
-	<p><?php echo $capabilitiesIntro ?></p>
-	<h3><?php echo $introCTALower ?></h3>
-</div>
-<div class="jumbotron" id="capJT" style="background-image: url('<?php echo $paper['url'] ?>')">
-	<div class="col-8" id="capImage">
-		<img src="<?php echo $scroller1['url']; ?>">
+<div class="the-page">
+	<div class="pageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')"></div>
+	<div class="py-5 px-4 mw-9 m-auto center">
+		<h2 class="center py-2"><?php echo $introCTA ?></h2>
+		<p><?php echo $capabilitiesIntro ?></p>
+		<h2 class="center py-2 mb-0"><?php echo $introCTALower ?></h2>
 	</div>
-</div>
-<div class="container py-m">
-	<h2 style="text-align: center;"><?php echo $firstBlockTitle ?></h2>
-	<p><?php echo $firstBlockSnippet ?></p>
-	<div class="row">
-		<div class="col-md-4">
-			<p><?php echo $firstBlockSectionOne ?></p>
-		</div>
-		<div class="col-md-4">
-			<p><?php echo $firstBlockSectionTwo ?></p>
-		</div>
-		<div class="col-md-4" id="capList">
-			<?php echo $firstBlockSectionThree ?>
+	<div class="pt-5 bg-cover" style="background-image: url('<?php echo $paper['url'] ?>')">
+		<div class="m-auto center" id="capImage">
+			<img class="mw-100" src="<?php echo $scroller1['url']; ?>">
 		</div>
 	</div>
-</div>
-<div class="jumbotron" id="capJT" style="background-image: url('<?php echo $paper['url'] ?>')">
-	<div class="col-8" id="capImage">
-		<img src="<?php echo $scroller2['url']; ?>">
-	</div>
-</div>
-<div class="container py-m">
-	<h2 style="text-align: center;"><?php echo $secondBlockTitle ?></h2>
-	<p><?php echo $secondBlockSnippet ?></p>
-	<div class="row">
-		<div class="col-md-4">
-				<p><?php echo $secondBlockSectionOne ?></p>
-		</div>
-		<div class="col-md-4">
-			<p><?php echo $secondBlockSectionTwo ?></p>
-		</div>
-		<div class="col-md-4" id="capList">
-			<?php echo $secondBlockSectionThree ?>
+	<div class="container py-5">
+		<h2 style="text-align: center;"><?php echo $firstBlockTitle ?></h2>
+		<p><?php echo $firstBlockSnippet ?></p>
+		<div class="row">
+			<div class="col-md-4 py-2">
+				<p><?php echo $firstBlockSectionOne ?></p>
+			</div>
+			<div class="col-md-4 py-2">
+				<p><?php echo $firstBlockSectionTwo ?></p>
+			</div>
+			<div class="col-md-4 py-2 capList">
+				<?php echo $firstBlockSectionThree ?>
+			</div>
 		</div>
 	</div>
-</div>
-<div class="jumbotron" id="capJT" style="background-image: url('<?php echo $paper['url'] ?>')">
-	<div class="col-8" id="capImage">
-		<img src="<?php echo $scroller3['url']; ?>">
-	</div>
-</div>
-<div class="container py-m">
-	<h2 style="text-align: center;"><?php echo $thirdBlockTitle ?></h2>
-	<p><?php echo $thirdBlockSnippet ?></p>
-	<div class="row">
-		<div class="col-md-4">
-			<p><?php echo $thirdBlockSectionOne ?></p>
-		</div>
-		<div class="col-md-4">
-			<p><?php echo $thirdBlockSectionTwo ?></p>
-		</div>
-		<div class="col-md-4" id="capList">
-			<?php echo $thirdBlockSectionThree ?>
+	<div class="pt-5 bg-cover" style="background-image: url('<?php echo $paper['url'] ?>')">
+		<div class="m-auto center">
+			<img class="mw-100" src="<?php echo $scroller2['url']; ?>">
 		</div>
 	</div>
-</div>
-	<div class="jumbotron" id="capContactJT" style="background-image: url('<?php echo $paper['url'] ?>')">
-		<div class="blockContents">
+	<div class="container py-5">
+		<h2 style="text-align: center;"><?php echo $secondBlockTitle ?></h2>
+		<p><?php echo $secondBlockSnippet ?></p>
+		<div class="row">
+			<div class="col-md-4 py-2">
+					<p><?php echo $secondBlockSectionOne ?></p>
+			</div>
+			<div class="col-md-4 py-2">
+				<p><?php echo $secondBlockSectionTwo ?></p>
+			</div>
+			<div class="col-md-4 py-2 capList">
+				<?php echo $secondBlockSectionThree ?>
+			</div>
+		</div>
+	</div>
+	<div class="pt-5 bg-cover" style="background-image: url('<?php echo $paper['url'] ?>')">
+		<div class="m-auto center">
+			<img class="mw-100" src="<?php echo $scroller3['url']; ?>">
+		</div>
+	</div>
+	<div class="container py-5">
+		<h2 style="text-align: center;"><?php echo $thirdBlockTitle ?></h2>
+		<p><?php echo $thirdBlockSnippet ?></p>
+		<div class="row">
+			<div class="col-md-4 py-2">
+				<p><?php echo $thirdBlockSectionOne ?></p>
+			</div>
+			<div class="col-md-4 py-2">
+				<p><?php echo $thirdBlockSectionTwo ?></p>
+			</div>
+			<div class="col-md-4 py-2 capList">
+				<?php echo $thirdBlockSectionThree ?>
+			</div>
+		</div>
+	</div>
+	<div class="py-5 bg-cover center" style="background-image: url('<?php echo $paper['url'] ?>')">
+		<div class="py-5">
 			<h2><?php echo $contactCTA ?></h2>
-			<div class="buttonContainer" id="capButtonContainer">
+			<div class="d-flex justify-content-center">
 				<a href="/contact-us/" title="Contact us page">
-					<div class="CTA" id="capContactButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>')">
-						<p><?php echo $contactButton ?></p>
-					</div>
-					<div class="CTA" id="capContactButtonActive" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>')">
+					<div class="cta-button lightest-blue-bg">
 						<p><?php echo $contactButton ?></p>
 					</div>
 				</a>
 			</div>
 		</div>
 	</div>
-</body>
+</div>
 
 
 

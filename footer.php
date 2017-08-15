@@ -16,8 +16,8 @@
 	 		<li><a href="mailto:info@boldcoastcreative.com">info@boldcoastcreative.com</a></li>
 	 		<li><a href="tel:2075368270" title="Call us">(207) 536-8270</a></li>
 			<li>Foster creativity. Be bold.</li>
-			<li><a href="/terms-conditions/" title="Terms and Conditions Page">Terms &amp; Conditions</a></li>
-			<li"><a href="/privacy-policy/" title="Privacy Policy Page">Privacy Policy</a></li>
+			<li><a href="<?php echo get_site_url(); ?>/terms-conditions/" title="Terms and Conditions Page">Terms &amp; Conditions</a></li>
+			<li"><a href="<?php echo get_site_url(); ?>/privacy-policy/" title="Privacy Policy Page">Privacy Policy</a></li>
 	 	</div>
 	</div>
  </footer>

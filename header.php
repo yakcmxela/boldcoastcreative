@@ -25,20 +25,20 @@
 
 <?php
 	
-	$logo = get_field('logo');
+	$logo = get_field('logo', 'option');
 
 ?>
 
 <body <?php body_class(); ?>>
   <header>
   	<div class="d-flex justify-content-center flex-column p-3" id="navDesktop">
-	  	<div class="bold-nav">
-	  		<div class="nav-title pt-2">
+	  	<div class="bold-nav py-2">
+	  		<div class="nav-title">
 				<a href="/" title="Home Page"><p>Bold Coast Creative</p></a>
 			</div>
 			<div class="nav-links">
 				<ul>
-					<a href="/" title="Home Page"><li>Home</li></a><!-- 
+					<a href="<?php echo get_site_url(); ?>/" title="Home Page"><li>Home</li></a><!-- 
 					 --><a href="<?php echo get_site_url(); ?>/web-development"><li>Development</li></a><!-- 
 					 --><a href="<?php echo get_site_url(); ?>/design-media"><li>Design</li></a><!-- 					 
 					 --><a href="<?php echo get_site_url(); ?>/digital-marketing"><li>Marketing</li></a><!-- 
@@ -57,29 +57,45 @@
 
  <!-- Mobile Navigation -->
 
-<div class="d-flex justify-content-center flex-row p-3 navMobile">
-		<div class="mobileMenu justify-content-start mr-auto mt-1">
-			<i class="fa fa-bars fa-2x navBars"></i>
+<div class="d-flex justify-content-center flex-row mobile-nav">
+		<div class="d-flex justify-content-center flex-row mobile-navbar">
+			<div class="d-flex align-items-center mobileMenu">
+				<i class="fa fa-bars fa-2x p-3 m-2 navBars"></i>
+			</div>
+			<div class="d-flex align-items-center ml-auto mobile-nav-logo">	
+				<a class="p-3 m-2" href="/" title="Home Page"><img src="<?php echo $logo['url']?>"></a>
+			</div>
 		</div>
-		<div class="mobile-nav-logo justify-content-end ml-auto">	
-			<a href="/" title="Home Page"><img src="<?php echo $logo['url']?>"></a>
-		</div>
-		<div class="mobileMenuMainContainer">
-			<ul class="mobileMenuMain py-2">
-				<li><a href="/">Home</a></li>
-				<li><a href="/web-development/">Web Development</a></li>
-				<li><a href="/design-media/">Design &amp; Media</a></li>
-				<li><a href="/digital-marketing/">Digital Marketing</a></li>
-				<li><a href="/about-us/">About</a></li>
-				<li><a href="/contact-us">Contact</a></li>
-			</ul>
-			<div class="row">
-				<a class="col-6 mobileCall" href="tel:2075368270">
-					<i class="fa fa-phone"></i>
+		<div class="mobileMenuMainContainer d-flex align-items-center justify-content-center flex-column center">
+			<div class="mobile-title d-flex align-items-center justify-content-center ">
+				<p>BOLD COAST CREATIVE</p>
+			</div>
+			<div class="mobile-menu d-flex align-items-center justify-content-start left">
+				<ul class="mobileMenuMain ml-5">
+					<li><a href="<?php echo get_site_url(); ?>/">Home</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/web-development/">Web Development</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/design-media/">Design &amp; Media</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/digital-marketing/">Digital Marketing</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/about-us/">About</a></li>
+					<li><a href="<?php echo get_site_url(); ?>/contact-us">Contact</a></li>
+				</ul>
+			</div>
+			<form class="d-flex align-items-end flex-column mobile-msg">
+				<div class="chat-box right px-2">
+				<p>Please enter your message and someone will be with you as soon as possible.</p>
+				</div>
+				<input type="text" name="user-message">
+			</form>
+			<div class="mobile-buttons d-flex align-items-center py-4">
+				<a class="mobile-button mobileCall" href="tel:2075368270">
+					<i class="fa fa-phone fa-3x"></i>
 				</a>
-				<a class="col-6 mobileEmail" href="mailto:info@boldcoastcreative.com">
-					<i class="fa fa-envelope"></i>
+				<a class="mobile-button mobileEmail" href="mailto:info@boldcoastcreative.com">
+					<i class="fa fa-envelope fa-3x"></i>
 				</a>
+<!-- 				<div class="mobile-button mobileChat">
+					<i class="fa fa-comment fa-2x"></i>
+				</div> -->
 			</div>
 		</div>
 	</div>

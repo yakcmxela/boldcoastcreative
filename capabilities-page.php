@@ -71,7 +71,7 @@ if (have_posts()) :
 			<div class="col-md-4 py-2">
 				<p><?php echo $firstBlockSectionTwo ?></p>
 			</div>
-			<div class="col-md-4 py-2 capList">
+			<div class="col-md-4 py-2 d-flex justify-content-center">
 				<?php echo $firstBlockSectionThree ?>
 			</div>
 		</div>
@@ -91,7 +91,7 @@ if (have_posts()) :
 			<div class="col-md-4 py-2">
 				<p><?php echo $secondBlockSectionTwo ?></p>
 			</div>
-			<div class="col-md-4 py-2 capList">
+			<div class="col-md-4 py-2 d-flex justify-content-center">
 				<?php echo $secondBlockSectionThree ?>
 			</div>
 		</div>
@@ -111,7 +111,7 @@ if (have_posts()) :
 			<div class="col-md-4 py-2">
 				<p><?php echo $thirdBlockSectionTwo ?></p>
 			</div>
-			<div class="col-md-4 py-2 capList">
+			<div class="col-md-4 d-flex justify-content-center py-2">
 				<?php echo $thirdBlockSectionThree ?>
 			</div>
 		</div>

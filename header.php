@@ -88,10 +88,10 @@
 			</form>
 			<div class="mobile-buttons d-flex align-items-center py-4">
 				<a class="mobile-button mobileCall" href="tel:2075368270">
-					<i class="fa fa-phone fa-3x"></i>
+					<i class="fa fa-phone fa-2x"></i>
 				</a>
 				<a class="mobile-button mobileEmail" href="mailto:info@boldcoastcreative.com">
-					<i class="fa fa-envelope fa-3x"></i>
+					<i class="fa fa-envelope fa-2x"></i>
 				</a>
 <!-- 				<div class="mobile-button mobileChat">
 					<i class="fa fa-comment fa-2x"></i>

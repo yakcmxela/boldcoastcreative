@@ -135,7 +135,7 @@ if (have_posts()) :
 				</div> 
 				<div class="col-12 no-p lp-gallery-img center-center eff-gold" style="background-image: url('<?php echo $photography2['url']; ?>');">
 					<div class="lp-gallery-txt-right">
-						<h2><a href="design-media/"><span>Showcase Your Products</span></a></h2>
+						<h2><a href="design-media/"><span>Stunning Photography</span></a></h2>
 					</div>
 				</div> 
 			</div>

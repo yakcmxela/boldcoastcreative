@@ -143,6 +143,10 @@ a
 .lightest-blue-bg
 	background-color: $lightest-blue
 	color: white
+	+transition(all .1s linear)
+
+.lightest-blue-bg:hover
+	background-color: $light-blue
 
 .light-blue-bg
 	background-color: $light-blue
@@ -617,7 +621,7 @@ a
 		padding-left: initial
 		padding: 10px
 	.left-lg p 
-		max-width: 500px
+		max-width: 600px
 		margin: auto
 	.right-lg
 		text-align: center

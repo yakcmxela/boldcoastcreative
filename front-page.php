@@ -104,11 +104,8 @@ if (have_posts()) :
 				<h2 class="m-0"><?php echo $webDevSnippetTitle ?></h2>
 				<h2>All devices.</h2>
 				<p><?php echo $webDevSnippet ?></p>
-				<a href="/website-development/" title="Link to Web Development Page">
-					<div class="call-to-action" id="webDevButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>');">
-						<p><?php echo $webDevCTA ?></p>
-					</div>
-					<div class="call-to-action" id="webDevHoverButton" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>');">
+				<a href="<?php echo get_site_url(); ?>/website-development/" title="Link to Web Development Page">
+					<div class="call-to-action lightest-blue-bg">
 						<p><?php echo $webDevCTA ?></p>
 					</div>
 				</a>
@@ -150,11 +147,8 @@ if (have_posts()) :
 			<div class="flex-item mw-6 left-lg">
 				<h2><?php echo $marketingSnippetTitle ?></h2>
 				<p><?php echo $marketingSnippet ?></p>
-				<a href="/digital-marketing/" title="Link to Digital Marketing Page">
-					<div class="call-to-action" id="marketingButton" style="background-image: url('<?php echo $darkBlueTexture['url']; ?>');">
-						<p><?php echo $marketingCTA ?></p>
-					</div>
-					<div class="call-to-action" id="marketingHoverButton" style="background-image: url('<?php echo $lightBlueTexture['url']; ?>');">
+				<a href="<?php echo get_site_url(); ?>/digital-marketing/" title="Link to Digital Marketing Page">
+					<div class="call-to-action lightest-blue-bg">
 						<p><?php echo $marketingCTA ?></p>
 					</div>
 				</a>

@@ -124,7 +124,15 @@ a {
 
 .lightest-blue-bg {
   background-color: #77c9d4;
-  color: white; }
+  color: white;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  transition: all 0.1s linear; }
+
+.lightest-blue-bg:hover {
+  background-color: #73b0b5; }
 
 .light-blue-bg {
   background-color: #73b0b5;
@@ -614,7 +622,7 @@ a {
     padding: 10px; }
 
   .left-lg p {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto; }
 
   .right-lg {

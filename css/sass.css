@@ -590,6 +590,10 @@ a {
 #lp-bold-mobile {
   display: none; }
 
+.wpcf7-mail-sent-ok, .wpcf7-response-output {
+  color: black;
+  border: none; }
+
 .letter {
   width: 90%;
   max-width: 800px;

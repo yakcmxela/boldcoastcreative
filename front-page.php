@@ -103,7 +103,7 @@ if (have_posts()) :
 			<div class="flex-item left-lg">
 				<h2 class="m-0"><?php echo $webDevSnippetTitle ?></h2>
 				<h2>All devices.</h2>
-				<p class="py-2"><?php echo $webDevSnippet ?></p>
+				<p><?php echo $webDevSnippet ?></p>
 				<a href="<?php echo get_site_url(); ?>/website-development/" title="Link to Web Development Page">
 					<div class="call-to-action lightest-blue-bg">
 						<p><?php echo $webDevCTA ?></p>
@@ -140,7 +140,7 @@ if (have_posts()) :
 
 	<!-- Digital Marketing Block -->
 
-		<div class="d-xl-flex justify-content-center align-items-center px-xl center" style="padding-top: 0px; padding-bottom: 0px">
+		<div class="d-xl-flex justify-content-center align-items-center px-xl center marketing">
 			<div class="flex-item p-4">
 				<img class="img-desktop mw-9" src="<?php echo $jtImageMarketing['url'] ?>">
 			</div>

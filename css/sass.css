@@ -308,7 +308,7 @@ a {
   text-align: center; }
 
 .nav-title {
-  width: 415px;
+  width: 425px;
   letter-spacing: 12px;
   margin: auto; }
   .nav-title p {
@@ -617,10 +617,6 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
   .page-width {
     padding: 0px 2%; } }
 @media (max-width: 1199px) {
-  .call-to-action {
-    margin: auto;
-    margin-top: 30px; }
-
   .left-lg {
     text-align: center;
     margin: auto;
@@ -629,11 +625,19 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
 
   .left-lg p {
     max-width: 600px;
-    margin: auto; }
+    margin: auto;
+    text-align: justify; }
 
   .right-lg {
     text-align: center;
-    margin: auto; } }
+    margin: auto; }
+
+  .call-to-action {
+    margin: auto;
+    margin-top: 30px; }
+
+  .call-to-action p {
+    text-align: center; } }
 @media (max-width: 1100px) {
   .contactBanner {
     background-size: contain;

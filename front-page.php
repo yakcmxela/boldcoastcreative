@@ -103,7 +103,7 @@ if (have_posts()) :
 			<div class="flex-item left-lg">
 				<h2 class="m-0"><?php echo $webDevSnippetTitle ?></h2>
 				<h2>All devices.</h2>
-				<p><?php echo $webDevSnippet ?></p>
+				<p class="py-2"><?php echo $webDevSnippet ?></p>
 				<a href="<?php echo get_site_url(); ?>/website-development/" title="Link to Web Development Page">
 					<div class="call-to-action lightest-blue-bg">
 						<p><?php echo $webDevCTA ?></p>

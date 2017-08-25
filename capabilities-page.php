@@ -62,7 +62,7 @@ if (have_posts()) :
 		</div>
 	</div>
 	<div class="container py-5">
-		<h2 style="text-align: center;"><?php echo $firstBlockTitle ?></h2>
+		<h2 class="center"><?php echo $firstBlockTitle ?></h2>
 		<p><?php echo $firstBlockSnippet ?></p>
 		<div class="row">
 			<div class="col-md-4 py-2">
@@ -82,7 +82,7 @@ if (have_posts()) :
 		</div>
 	</div>
 	<div class="container py-5">
-		<h2 style="text-align: center;"><?php echo $secondBlockTitle ?></h2>
+		<h2 class="center"><?php echo $secondBlockTitle ?></h2>
 		<p><?php echo $secondBlockSnippet ?></p>
 		<div class="row">
 			<div class="col-md-4 py-2">

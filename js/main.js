@@ -31,10 +31,8 @@ $(document).ready(function() {
 		});
 		// Main image switch
 			var image = $('.photographyImage');
-			var currentImage;
-			var originalImage = $('.img-album-thumb');
-			var originalImage = originalImage[3];
-			var originalImage = $(originalImage).css('background-image');
+			var currentImage = $('.img-album-thumb').eq(3).css('background-image');
+
 			// click
 			$('.img-album-thumb').on('click', function(e){
 				var attribute = $(e.currentTarget).css('background-image');

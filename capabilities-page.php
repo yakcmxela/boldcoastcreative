@@ -116,16 +116,14 @@ if (have_posts()) :
 			</div>
 		</div>
 	</div>
-	<div class="py-5 bg-cover center" style="background-image: url('<?php echo $paper['url'] ?>')">
-		<div class="py-5">
-			<h2><?php echo $contactCTA ?></h2>
-			<div class="d-flex justify-content-center">
-				<a href="/contact-us/" title="Contact us page">
-					<div class="cta-button lightest-blue-bg">
-						<p><?php echo $contactButton ?></p>
-					</div>
-				</a>
-			</div>
+	<div class="contactBanner mt-5 py-5 bg-lb">
+		<div class="d-flex flex-column align-items-center justify-content-center center">
+			<h1 class="title-shadow">Have a project?</h1>
+			<a href="<?php echo get_site_url(); ?>/contact-us">
+				<div class="block-shadow contact-button m-5 bg-w">
+					<h2 class="p-3 mb-1">Get started.</h2>
+				</div>
+			</a>
 		</div>
 	</div>
 </div>

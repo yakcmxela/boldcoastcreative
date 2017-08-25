@@ -33,7 +33,7 @@ if (have_posts()) :
 			<div class="container" id="contactContainer">
 				<div class="contactForm" style="background-image: url('<?php echo $contactFormBG['url']; ?>')"">
 					<div class="contactHead">
-						<h1><?php echo $introCTA ?></h1>
+						<h1>Let's get started.</h1>
 						<div class="contactInfo">
 							<p><a href="mailto:info@boldcoastcreative.com" title="Email us"><i class="fa fa-envelope"></i> | info@boldcoastcreative.com</a></p>
 							<p><a href="tel:2075368270" title="Call us"><i class="fa fa-phone"></i> | (207) 536-8270</a></p>

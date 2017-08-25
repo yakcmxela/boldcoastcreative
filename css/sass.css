@@ -95,6 +95,9 @@ a {
 .mw-9 {
   max-width: 900px; }
 
+.mw-12 {
+  max-width: 1200px; }
+
 .no-py {
   padding-top: 0 !important;
   padding-bottom: 0 !important; }
@@ -121,6 +124,32 @@ a {
 .page-width {
   padding: 0px 10%;
   position: relative; }
+
+.space {
+  width: 100%;
+  height: 100%; }
+
+.button-link {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.075s all linear;
+  -o-transition: 0.075s all linear;
+  -moz-transition: 0.075s all linear;
+  -ms-transition: 0.075s all linear;
+  transition: 0.075s all linear;
+  border: 5px solid white;
+  position: relative; }
+
+.button-link:hover {
+  border: 5px solid #77c9d4;
+  color: black;
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5); }
+
+.button-link:hover i {
+  color: #e0d894; }
+
+.lg {
+  color: #e0d894; }
 
 .lightest-blue-bg {
   background-color: #77c9d4;
@@ -151,7 +180,8 @@ a {
   color: white; }
 
 .bg-w {
-  background-color: white; }
+  background-color: white;
+  color: black; }
 
 .bg-dg {
   background-color: #a89e68;
@@ -168,6 +198,12 @@ a {
 .bg-lb {
   background-color: #73b0b5;
   color: white; }
+
+.border-lg {
+  border: 1px solid #e0d894; }
+
+.section-border {
+  border-bottom: 5px solid white; }
 
 .logo {
   max-width: 487px; }
@@ -409,6 +445,37 @@ a {
   background-size: cover;
   background-position: center center; }
 
+.logo-intro {
+  display: inline-block;
+  background-color: white;
+  width: 200px; }
+
+.logo-img-container {
+  max-height: 130px;
+  max-width: 130px; }
+
+.logo-img {
+  height: 100%;
+  width: 100%; }
+
+.intro-row {
+  height: 200px; }
+
+.text-intro {
+  width: 100%;
+  background-size: cover;
+  background-position: 0% 85%; }
+
+.text-intro span {
+  font-size: 36px;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 10px;
+  background-color: #77c9d4;
+  color: white;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+
 .mobileBannerText {
   line-height: 50px;
   text-transform: uppercase; }
@@ -444,19 +511,38 @@ a {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.35); }
 
+.block-shadow-up {
+  box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.15); }
+
 .block-shadow {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15); }
 
 .call-to-action {
   width: 200px;
   height: 65px;
   cursor: pointer;
-  box-shadow: 0px 10px 31px 0px rgba(0, 0, 0, 0.1);
-  color: white;
   text-align: center;
-  font-weight: 600;
-  padding-top: 18px;
+  padding-top: 19px;
   margin-top: 30px; }
+
+.call-to-action a:hover {
+  color: white; }
+
+.contact-button {
+  border: 5px solid #e0d894;
+  -webkit-transition: 0.25s all linear;
+  -o-transition: 0.25s all linear;
+  -moz-transition: 0.25s all linear;
+  -ms-transition: 0.25s all linear;
+  transition: 0.25s all linear;
+  cursor: pointer; }
+
+.contact-button:hover {
+  background-color: #e0d894;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.251); }
 
 .cta-button {
   cursor: pointer;
@@ -476,12 +562,38 @@ a {
 .cta-button:hover {
   background-color: #73b0b5; }
 
+.title-shadow {
+  text-shadow: 1px 3px 1px #4f4f4f; }
+
 .img-desktop-container {
   position: relative;
   z-index: 10;
   background-color: #5f9ca1;
   height: 95vh;
   overflow: hidden; }
+
+.lp-img-header {
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  font-size: 36px; }
+
+.lp-img-header-mobile {
+  width: 100%;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  display: none; }
+
+.style-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
 
 .text-cliff {
   position: absolute;
@@ -511,9 +623,9 @@ a {
 .lp-gallery-img, .lp-gallery-img-lg {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  width: 99.4%;
+  height: 550px;
   z-index: 0;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   position: relative;
   z-index: 15; }
@@ -549,8 +661,25 @@ a {
   background-color: #77c9d4;
   color: white; }
 
-.img-album {
-  height: 200px; }
+.img-album-thumb {
+  height: 100px;
+  max-height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: saturate(0%);
+  -webkit-transition: 0.1s all linear;
+  -o-transition: 0.1s all linear;
+  -moz-transition: 0.1s all linear;
+  -ms-transition: 0.1s all linear;
+  transition: 0.1s all linear; }
+
+.img-album-thumb:hover {
+  filter: saturate(100%); }
+
+.img-album-thumb.Active {
+  filter: saturate(100%); }
 
 .img-mobile {
   display: none; }
@@ -566,39 +695,26 @@ a {
   background-color: #77c9d4; }
 
 .img-desktop {
-  max-width: 100%;
-  overflow: hidden; }
-
-.lp-bold {
+  max-width: 90%;
+  max-height: 400px;
+  overflow: hidden;
   position: absolute;
-  bottom: 0;
+  left: 0;
   right: 0;
-  height: 40%;
-  cursor: pointer; }
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto; }
 
-#lp-bold-gold {
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in;
-  -o-transition: 0.2s opacity ease-in;
-  -moz-transition: 0.2s opacity ease-in;
-  -ms-transition: 0.2s opacity ease-in;
-  transition: 0.2s opacity ease-in; }
-
-#lp-bold-gold:hover {
-  opacity: 1; }
-
-#lp-bold-mobile {
-  display: none; }
+.form-input, .form-dropdown, .form-dropdown {
+  border: 1px solid #77c9d4;
+  height: 50px;
+  padding: 10px; }
 
 .wpcf7-mail-sent-ok, .wpcf7-response-output {
   color: black; }
 
 div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
   border: 0px; }
-
-.marketing {
-  padding-top: 0px;
-  padding-bottom: 20px; }
 
 .letter {
   width: 90%;
@@ -619,7 +735,10 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
     padding: 0px 5%; } }
 @media (max-width: 1250px) {
   .page-width {
-    padding: 0px 2%; } }
+    padding: 0px 2%; }
+
+  .lp-gallery-img {
+    width: 100%; } }
 @media (max-width: 1199px) {
   .left-lg {
     text-align: center;
@@ -646,7 +765,14 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
   .contactBanner {
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom center; } }
+    background-position: bottom center; }
+
+  .img-desktop {
+    max-width: 98%;
+    max-height: 81%; } }
+@media (max-width: 900px) {
+  .text-intro span {
+    font-size: 23px; } }
 @media (max-width: 768px) {
   .p-xl {
     padding: 10% 5%; }
@@ -698,16 +824,26 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
     font-size: 24px;
     margin-bottom: 30px; }
 
+  .lp-img-header {
+    font-size: 24px;
+    display: none; }
+
+  .lp-img-header-mobile {
+    display: block; }
+
   .page-width {
     padding: 0px 1%; }
 
   .lp-gallery-img {
-    max-height: 250px; }
+    max-height: 300px; }
 
   .lp-gallery-txt span, .lp-gallery-txt-right span {
     font-size: 18px; }
 
-  #lp-water {
-    height: 125px; } }
+  .img-album {
+    padding: 0 !important; }
+
+  .img-album-thumb {
+    max-height: 100px; } }
 
 /*# sourceMappingURL=sass.css.map */

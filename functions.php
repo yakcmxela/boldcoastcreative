@@ -18,7 +18,7 @@
 		wp_enqueue_style('style', get_template_directory_uri() . '/style.css' );
 		wp_enqueue_style('sass', get_template_directory_uri() . '/css/sass.css' );
 		wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css' );
-		wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Work+Sans:900');
+		wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Work+Sans:900|Cinzel+Decorative|Amatic+SC|Monoton|Poiret+OneMonoton|Poiret+One|Sigmar+One');
 		
 	}
 	add_action('wp_enqueue_scripts', 'get_bold_jquery');

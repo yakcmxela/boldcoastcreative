@@ -97,8 +97,8 @@ if (have_posts()) :
 	<!-- Intro -->
 
 		<div class="container-fluid p-0 mw-12 py-3 py-3 py-3 m-auto">
-			<div class="d-flex intro-row" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/buoys.jpg');">
-				<div class="d-flex flex-row justify-content-end align-items-end text-intro mx-1 p-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/buoys.jpg');">
+			<div class="d-flex intro-row" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/buoys.jpg');">
+				<div class="d-flex flex-row justify-content-end align-items-end text-intro mx-1 p-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/buoys.jpg');">
 					<div class="flex-column right">
 						<div class="intro-line-container my-2">
 							<span class="m-0 intro-line">Outstanding web products</span>
@@ -114,8 +114,8 @@ if (have_posts()) :
 	<!-- Web Dev Block -->
 
 		<div class="container-fluid center px-0 py-5 mw-12 m-auto">
-			<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/wood.jpg');">
-				<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/landing/mockups-large.png">
+			<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/wood.jpg');">
+				<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/Landing/mockups-large.png">
 				<div class="style-text d-flex justify-content-end align-items-end">
 					<span class="lp-img-header block-shadow-up">Web Development</span>
 				</div>
@@ -125,7 +125,7 @@ if (have_posts()) :
 				<div class="col-md-4 px-1 pt-3">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
 						<div class="button-link p-2 block-shadow bg-w">
-							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/icons/responsive.png">
+							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/responsive.png">
 							<h2 class="mb-1">Compatible</h2>
 							<p class="left p-3">Respnsive web design optimized for all mobile devices and platforms. Structured with the ideal balance of design and functionality.</p>
 						</div>
@@ -134,7 +134,7 @@ if (have_posts()) :
 				<div class="col-md-4 pt-3 px-1">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
 						<div class="button-link p-2 block-shadow bg-w">
-							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/icons/flexible.png">
+							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/flexible.png">
 							<h2 class="mb-1">Flexible</h2>
 							<p class="left p-3">Pages built to adapt with your evolving needs. You'll be able to make changes to your website without hiring a developer.</p>
 						</div>
@@ -143,7 +143,7 @@ if (have_posts()) :
 				<div class="col-md-4 px-1 pt-3">
 					<a href="<?php echo get_site_url(); ?>/about-us#pricing">
 						<div class="button-link p-2 block-shadow bg-w">
-							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/icons/dollar.png">
+							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/dollar.png">
 							<h2 class="mb-1">Affordable</h2>
 							<p class="left p-3">Offering a competitive hourly rate, and will work within your budget to create the perfect website for your business.</p>
 						</div>
@@ -165,23 +165,23 @@ if (have_posts()) :
 			<div class="col-md-6 pt-3 px-1 push-md-6 img-album">
 					<div class="d-flex flex-wrap">
 						<div class="col-3 p-0">
-							<div class="img-album-thumb" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/globe.jpg');"></div>
+							<div class="img-album-thumb" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/globe.jpg');"></div>
 						</div>
 						<div class="col-3 p-0">
-							<div class="img-album-thumb" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/pencils.jpg');"></div>
+							<div class="img-album-thumb" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/pencils.jpg');"></div>
 						</div>
 						<div class="col-3 p-0">
-							<div class="img-album-thumb" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/sunrise.jpg');"></div>
+							<div class="img-album-thumb" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/sunrise.jpg');"></div>
 						</div>
 						<div class="col-3 p-0">
-							<div class="img-album-thumb Active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/gulls.jpg');"></div>
+							<div class="img-album-thumb Active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/gulls.jpg');"></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6 pull-md-6 pt-3 px-0 lpPhotoText">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="d-flex flex-row align-items-center button-link p-2 block-shadow bg-w">
-							<img class="mx-4 my-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/camera.png">
+							<img class="mx-4 my-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/camera.png">
 							<p class="left mb-0 p-3">Showcase your business and products. with our high end equipment and editing software.</p>
 						</div>
 					</a>
@@ -192,7 +192,7 @@ if (have_posts()) :
 	<!-- Style and Design -->
 
 		<div class="container-fluid mw-12 center py-5 px-0 pb-0">
-			<div class="lp-gallery-img bg-db left block-shadow m-auto" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/cliff-text.png'); background-position: 10%">
+			<div class="lp-gallery-img bg-db left block-shadow m-auto" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/cliff-text.png'); background-position: 10%">
 				<div class="style-text d-flex justify-content-end align-items-end">
 					<span class="lp-img-header block-shadow-up">Style &amp; Design</span>
 				</div>
@@ -202,7 +202,7 @@ if (have_posts()) :
 				<div class="col-md-4 pt-2 px-1">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="button-link p-3 block-shadow bg-w">
-							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/ux.png">
+							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/ux.png">
 							<h2 class="mb-1">UX</h2>
 							<p class="left p-3">Easy to navigate pages. Logical user flow.  Enhance your customer experience and promote conversions.</p>
 						</div>
@@ -211,7 +211,7 @@ if (have_posts()) :
 				<div class="col-md-4 pt-3 px-1">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="button-link p-2 block-shadow bg-w">
-							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/branding.png">
+							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/branding.png">
 							<h2 class="mb-1">Branding</h2>
 							<p class="left p-3">Brilliant logos and unifying color pallettes. Seamlessly paired to fit your unique business identity.</p>
 						</div>
@@ -220,7 +220,7 @@ if (have_posts()) :
 				<div class="col-md-4 pt-3 px-1">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="button-link p-2 block-shadow bg-w">
-							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/scale.png">
+							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/scale.png">
 							<h2 class="mb-1">Balance</h2>
 							<p class="left p-3">Find harmony in visual design prinicples: color, shape, texture, form, space, simplicity, and complexity.</p>
 						</div>
@@ -233,8 +233,8 @@ if (have_posts()) :
 	<!-- Digital Marketing Block -->
 
 		<div class="center py-5 mw-12 m-auto">
-			<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/landing/waves.jpg');">
-				<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/landing/marketing-3-mobile.png">
+			<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/waves.jpg');">
+				<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/Landing/marketing-3-mobile.png">
 				<div class="style-text d-flex justify-content-end align-items-end">
 					<span class="lp-img-header block-shadow-up">Digital Marketing</span>
 				</div>
@@ -245,7 +245,7 @@ if (have_posts()) :
 					<div class="col-md-4 px-1 pt-3">
 						<a href="<?php echo get_site_url(); ?>/digital-marketing/">
 							<div class="button-link p-2 block-shadow bg-w">
-								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/seo.png">
+								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/seo.png">
 								<h2 class="mb-1">SEO</h2>
 								<p class="left p-3"> Get discovered on platforms like Google and Bing. Generate organic traffic through search engine optimization.</p>
 							</div>
@@ -254,7 +254,7 @@ if (have_posts()) :
 					<div class="col-md-4 pt-3 px-1">
 						<a href="<?php echo get_site_url(); ?>/digital-marketing/">
 							<div class="button-link p-2 block-shadow bg-w">
-								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/ppc.png">
+								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/ppc.png">
 								<h2 class="mb-1">Pay Per Click</h2>
 								<p class="left p-3">Put your business in front of the right audience. Data driven and cost-effective ads within your budget.</p>
 							</div>
@@ -263,7 +263,7 @@ if (have_posts()) :
 					<div class="col-md-4 px-1 pt-3">
 						<a href="<?php echo get_site_url(); ?>/digital-marketing/">
 							<div class="button-link p-2 block-shadow bg-w">
-								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/icons/socialmedia.png">
+								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/socialmedia.png">
 								<h2 class="mb-1">Social Media</h2>
 								<p class="left p-3">Expand your reach on social networks with multimedia content creation and highly targeted advertising.</p>
 							</div>

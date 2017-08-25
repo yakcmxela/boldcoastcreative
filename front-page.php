@@ -97,7 +97,7 @@ if (have_posts()) :
 	<!-- Intro -->
 
 		<div class="container-fluid p-0 mw-12 py-3 py-3 py-3 m-auto">
-			<div class="d-flex intro-row" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/buoys.jpg');">
+			<div class="d-flex intro-row m-auto" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/buoys.jpg');">
 				<div class="d-flex flex-row justify-content-end align-items-end text-intro mx-1 p-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/buoys.jpg');">
 					<div class="flex-column right">
 						<div class="intro-line-container my-2">

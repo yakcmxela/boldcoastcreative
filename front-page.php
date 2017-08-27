@@ -121,7 +121,7 @@ if (have_posts()) :
 				</div>
 			</div>
 			<h2 class="lp-img-header-mobile mb-0">Web Development</h2>
-			<div class="row mw-12 m-auto justify-content-center">
+			<div class="row mw-12 m-auto d-flex flex-row justify-content-center">
 				<div class="col-md-4 px-1 pt-3">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
 						<div class="button-link p-2 block-shadow bg-w">
@@ -181,7 +181,7 @@ if (have_posts()) :
 				<div class="col-md-6 pull-md-6 pt-3 px-0 lpPhotoText">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="d-flex flex-row align-items-center button-link p-2 block-shadow bg-w">
-							<img class="mx-4 my-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/camera.png" style="width: 78px; height: 60px">
+							<i class="fa fa-camera-retro fa-3x m-3"></i>
 							<p class="left mb-0 p-3">Showcase your business and products. with our high end equipment and editing software.</p>
 						</div>
 					</a>
@@ -198,7 +198,7 @@ if (have_posts()) :
 				</div>
 			</div>
 			<h2 class="lp-img-header-mobile mb-0">Style &amp; Design</h2>
-			<div class="row m-auto mw-12 justify-content-center">
+			<div class="row m-auto mw-12 d-flex flex-row justify-content-center">
 				<div class="col-md-4 pt-2 px-1">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="button-link p-3 block-shadow bg-w">
@@ -241,7 +241,7 @@ if (have_posts()) :
 			</div>
 			<h2 class="lp-img-header-mobile mb-0">Digital Marketing</h2>
 			<div class="container-fluid mw-12">
-				<div class="row justify-content-center">
+				<div class="row d-flex flex-row justify-content-center">
 					<div class="col-md-4 px-1 pt-3">
 						<a href="<?php echo get_site_url(); ?>/digital-marketing/">
 							<div class="button-link p-2 block-shadow bg-w">

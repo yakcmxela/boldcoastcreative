@@ -717,6 +717,18 @@ a {
   padding-left: 10px;
   padding-right: 10px; }
 
+.mobile-text-header {
+  width: 100%;
+  display: none; }
+
+.mobile-text-header h2 {
+  background-color: #77c9d4;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  font-size: 24px;
+  line-height: 32px; }
+
 .form-input, .form-dropdown, .form-dropdown {
   border: 1px solid #77c9d4;
   height: 50px;
@@ -838,6 +850,12 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
 
   .pageBanner-textContainer {
     transform: translateY(30px); }
+
+  .mobile-text-header {
+    display: block; }
+
+  .desktop-text-header {
+    display: none !important; }
 
   .button-link:hover {
     border-color: white; }

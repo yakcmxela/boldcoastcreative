@@ -51,7 +51,7 @@ if (have_posts()) :
 
 <div class="the-page">
 	<div class="pageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')">
-		<div class="pageBanner-textContainer flex-column d-flex align-items-end justify-content-end right">
+		<div class="pageBanner-textContainer desktop-text-header flex-column d-flex align-items-end justify-content-end right">
 			<div class="intro-line-container my-1">
 				<span class="m-0 intro-line"><?php echo $introCTA ?></span>
 			</div>
@@ -59,6 +59,9 @@ if (have_posts()) :
 				<span class="m-0 intro-line"><?php echo $introCTALower ?></span>
 			</div>
 		</div>
+	</div>
+	<div class="mobile-text-header center">
+		<h2 class="m-0 intro-line"><?php echo $introCTA ?><br/><?php echo $introCTALower ?></h2>
 	</div>
 	<div class="pt-5">
 	<?php

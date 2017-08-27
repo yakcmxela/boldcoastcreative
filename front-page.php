@@ -181,7 +181,7 @@ if (have_posts()) :
 				<div class="col-md-6 pull-md-6 pt-3 px-0 lpPhotoText">
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="d-flex flex-row align-items-center button-link p-2 block-shadow bg-w">
-							<img class="mx-4 my-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/camera.png">
+							<img class="mx-4 my-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/camera.png" style="width: 78px; height: 60px">
 							<p class="left mb-0 p-3">Showcase your business and products. with our high end equipment and editing software.</p>
 						</div>
 					</a>
@@ -222,7 +222,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/scale.png">
 							<h2 class="mb-1">Balance</h2>
-							<p class="left p-3">Find harmony in visual design prinicples: color, shape, texture, form, space, simplicity, and complexity.</p>
+							<p class="left p-3">Find harmony in visual design principles: color, shape, texture, form, space, simplicity, and complexity.</p>
 						</div>
 					</a>
 				</div>

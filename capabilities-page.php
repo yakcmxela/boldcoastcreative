@@ -50,71 +50,45 @@ if (have_posts()) :
          ?>
 
 <div class="the-page">
-	<div class="pageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')"></div>
-	<div class="py-5 px-4 mw-9 m-auto center">
-		<h2 class="center py-2"><?php echo $introCTA ?></h2>
-		<p><?php echo $capabilitiesIntro ?></p>
-		<h2 class="center py-2 mb-0"><?php echo $introCTALower ?></h2>
-	</div>
-	<div class="pt-5 bg-cover" style="background-image: url('<?php echo $paper['url'] ?>')">
-		<div class="m-auto center" id="capImage">
-			<img class="mw-100" src="<?php echo $scroller1['url']; ?>">
-		</div>
-	</div>
-	<div class="container py-5">
-		<h2 class="center"><?php echo $firstBlockTitle ?></h2>
-		<p><?php echo $firstBlockSnippet ?></p>
-		<div class="row">
-			<div class="col-md-4 py-2">
-				<p><?php echo $firstBlockSectionOne ?></p>
+	<div class="pageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')">
+		<div class="pageBanner-textContainer flex-column d-flex align-items-end justify-content-end right">
+			<div class="intro-line-container my-1">
+				<span class="m-0 intro-line"><?php echo $introCTA ?></span>
 			</div>
-			<div class="col-md-4 py-2">
-				<p><?php echo $firstBlockSectionTwo ?></p>
-			</div>
-			<div class="col-md-4 py-2 d-flex justify-content-center">
-				<?php echo $firstBlockSectionThree ?>
+			<div class="intro-line-container my-1">
+				<span class="m-0 intro-line"><?php echo $introCTALower ?></span>
 			</div>
 		</div>
 	</div>
-	<div class="pt-5 bg-cover" style="background-image: url('<?php echo $paper['url'] ?>')">
-		<div class="m-auto center">
-			<img class="mw-100" src="<?php echo $scroller2['url']; ?>">
-		</div>
-	</div>
-	<div class="container py-5">
-		<h2 class="center"><?php echo $secondBlockTitle ?></h2>
-		<p><?php echo $secondBlockSnippet ?></p>
-		<div class="row">
-			<div class="col-md-4 py-2">
-					<p><?php echo $secondBlockSectionOne ?></p>
+	<div class="pt-5">
+	<?php
+	if( have_rows('capSection') ):
+		while ( have_rows('capSection') ) : the_row(); ?>
+			<div class="cap-img-bg block-shadow bg-cover mw-12 m-auto" style="background-image: url('<?php echo $paper['url'] ?>')">
+				<div class="m-auto center">
+					<img class="mw-100" src="<?php the_sub_field('capImage'); ?>">
+				</div>
+				<div class="style-text d-flex justify-content-end align-items-end">
+					<span class="lp-img-header block-shadow-up"><?php the_sub_field('capHeader') ?></span>
+				</div>
 			</div>
-			<div class="col-md-4 py-2">
-				<p><?php echo $secondBlockSectionTwo ?></p>
+			<h2 class="center lp-img-header-mobile mb-0"><?php the_sub_field('capHeader') ?></h2>
+			<div class="container py-3">
+				<div class="row">
+					<div class="col-md-4 py-2">
+						<p><?php the_sub_field('capText1') ?></p>
+					</div>
+					<div class="col-md-4 py-2">
+						<p><?php the_sub_field('capText2') ?></p>
+					</div>
+					<div class="col-md-4 py-2">
+						<?php the_sub_field('capText3') ?>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 py-2 d-flex justify-content-center">
-				<?php echo $secondBlockSectionThree ?>
-			</div>
-		</div>
-	</div>
-	<div class="pt-5 bg-cover" style="background-image: url('<?php echo $paper['url'] ?>')">
-		<div class="m-auto center">
-			<img class="mw-100" src="<?php echo $scroller3['url']; ?>">
-		</div>
-	</div>
-	<div class="container py-5">
-		<h2 style="text-align: center;"><?php echo $thirdBlockTitle ?></h2>
-		<p><?php echo $thirdBlockSnippet ?></p>
-		<div class="row">
-			<div class="col-md-4 py-2">
-				<p><?php echo $thirdBlockSectionOne ?></p>
-			</div>
-			<div class="col-md-4 py-2">
-				<p><?php echo $thirdBlockSectionTwo ?></p>
-			</div>
-			<div class="col-md-4 d-flex justify-content-center py-2">
-				<?php echo $thirdBlockSectionThree ?>
-			</div>
-		</div>
+		<?php endwhile;
+	endif;
+	?>
 	</div>
 	<div class="contactBanner mt-5 py-5 bg-lb">
 		<div class="d-flex flex-column align-items-center justify-content-center center">

@@ -122,7 +122,7 @@ if (have_posts()) :
 			</div>
 			<h2 class="lp-img-header-mobile mb-0">Web Development</h2>
 			<div class="row mw-12 m-auto d-flex flex-row justify-content-center align-items-stretch">
-				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch">
+				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch" style="flex: 1">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/responsive.png">
@@ -131,7 +131,7 @@ if (have_posts()) :
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 pt-3 px-1 d-flex align-self-stretch">
+				<div class="col-md-4 pt-3 px-1 d-flex align-self-stretch" style="flex: 1">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/flexible.png">
@@ -140,7 +140,7 @@ if (have_posts()) :
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch">
+				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch" style="flex: 1">
 					<a href="<?php echo get_site_url(); ?>/about-us#pricing">
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/dollar.png">

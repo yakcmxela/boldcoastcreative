@@ -124,7 +124,7 @@ if (have_posts()) :
 			<div class="row mw-12 m-auto d-flex flex-row justify-content-center align-items-stretch">
 				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch" style="flex: 1">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
-						<div class="button-link p-2 block-shadow bg-w align-items-stretch">
+						<div class="button-link p-2 block-shadow bg-w" style="height: 100%">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/responsive.png">
 							<h2 class="mb-1">Compatible</h2>
 							<p class="left p-3">Respnsive web design optimized for all mobile devices and platforms. Structured with the ideal balance of design and functionality.</p>
@@ -133,7 +133,7 @@ if (have_posts()) :
 				</div>
 				<div class="col-md-4 pt-3 px-1 d-flex align-self-stretch" style="flex: 1">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
-						<div class="button-link p-2 block-shadow bg-w align-items-stretch">
+						<div class="button-link p-2 block-shadow bg-w" style="height: 100%">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/flexible.png">
 							<h2 class="mb-1">Flexible</h2>
 							<p class="left p-3">Pages built to adapt with your evolving needs. You'll be able to make changes to your website without hiring a developer.</p>
@@ -141,8 +141,8 @@ if (have_posts()) :
 					</a>
 				</div>
 				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch" style="flex: 1">
-					<a href="<?php echo get_site_url(); ?>/about-us#pricing">
-						<div class="button-link p-2 block-shadow bg-w align-items-stretch">
+					<a href="<?php echo get_site_url(); ?>/web-development/">
+						<div class="button-link p-2 block-shadow bg-w" style="height: 100%">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/dollar.png">
 							<h2 class="mb-1">Affordable</h2>
 							<p class="left p-3">Offering a competitive hourly rate, and will work within your budget to create the perfect website for your business.</p>

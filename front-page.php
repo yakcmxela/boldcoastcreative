@@ -121,7 +121,7 @@ if (have_posts()) :
 				</div>
 			</div>
 			<h2 class="lp-img-header-mobile mb-0">Web Development</h2>
-			<div class="row mw-12 m-auto d-flex flex-row justify-content-center align-items-stretch">
+			<div class="row mw-12 m-auto d-flex flex-row justify-content-center align-items-center">
 				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch">
 					<a href="<?php echo get_site_url(); ?>/web-development/">
 						<div class="button-link p-2 block-shadow bg-w">

@@ -39,7 +39,7 @@
 			</div>
 			<div class="nav-links">
 				<ul>
-					<a href="<?php echo get_site_url(); ?>/" title="Home Page"><li>Home</li></a><!-- 
+					<a href="<?php echo get_site_url(); ?>/"><li>Home</li></a><!-- 
 					 --><a href="<?php echo get_site_url(); ?>/web-development"><li>Development</li></a><!-- 
 					 --><a href="<?php echo get_site_url(); ?>/design-media"><li>Design</li></a><!-- 					 
 					 --><a href="<?php echo get_site_url(); ?>/digital-marketing"><li>Marketing</li></a><!-- 

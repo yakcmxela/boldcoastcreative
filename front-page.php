@@ -155,7 +155,7 @@ if (have_posts()) :
 	<!-- Photography -->
 
 		<div class="container-fluid mw-12 center py-5 px-0 pb-0">
-			<div class="photographyImage lp-gallery-img bottom-center block-shadow" style="background-image: url('<?php echo $photography1['url']; ?>');">
+			<div class="photographyImage lp-gallery-img bottom-center block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/gulls.jpg');">
 				<div class="style-text d-flex justify-content-end align-items-end">
 					<span class="lp-img-header block-shadow-up">Photography</span>
 				</div>

@@ -49,7 +49,7 @@ if (have_posts()) :
 
          ?>
 
-<div class="the-page">
+<div class="the-page" data-title="<?php wp_title(); ?>">
 	<div class="pageBanner" style="background-image: url('<?php echo $pageBanner['url'] ?>')">
 		<div class="pageBanner-textContainer desktop-text-header flex-column d-flex align-items-end justify-content-end right">
 			<div class="intro-line-container my-1">

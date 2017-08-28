@@ -12,6 +12,18 @@ $(document).ready(function() {
 			$('.mobile-msg').toggleClass('Active');
 		});
 
+		// Active page nav color
+		// var navLinks = $('.nav-links li');
+		// var pageTitle = $('.the-page').data('title');
+
+		// $.each(navLinks, function() {
+		// 	var linkTitle = $(this).text();
+		// 	console.log(linkTitle);
+		// 	if (pageTitle.indexOf(linkTitle) >= 0) {
+		// 		console.log('found');
+		// 	}
+		// });
+
 	// LANDING PAGE: 
 
 	// Photography Section

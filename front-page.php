@@ -114,12 +114,14 @@ if (have_posts()) :
 	<!-- Web Dev Block -->
 
 		<div class="container-fluid center px-0 py-5 mw-12 m-auto">
-			<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/wood.jpg');">
-				<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/Landing/mockups-large.png">
-				<div class="style-text d-flex justify-content-end align-items-end">
-					<span class="lp-img-header block-shadow-up">Web Development</span>
+			<a href="<?php echo get_site_url(); ?>/web-development/">
+				<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/wood.jpg');">
+					<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/Landing/mockups-large.png">
+					<div class="style-text d-flex justify-content-end align-items-end">
+						<span class="lp-img-header block-shadow-up">Web Development</span>
+					</div>
 				</div>
-			</div>
+			</a>
 			<h2 class="lp-img-header-mobile mb-0">Web Development</h2>
 			<div class="row mw-12 m-auto d-flex flex-row justify-content-center align-items-center">
 				<div class="col-md-4 px-1 pt-3 d-flex align-self-stretch">
@@ -192,11 +194,13 @@ if (have_posts()) :
 	<!-- Style and Design -->
 
 		<div class="container-fluid mw-12 center py-5 px-0 pb-0">
-			<div class="lp-gallery-img bg-db left block-shadow m-auto" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/cliff-text.png'); background-position: 10%">
-				<div class="style-text d-flex justify-content-end align-items-end">
-					<span class="lp-img-header block-shadow-up">Style &amp; Design</span>
+			<a href="<?php echo get_site_url(); ?>/design-media/">
+				<div class="lp-gallery-img bg-db left block-shadow m-auto" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/cliff-text.png'); background-position: 10%">
+					<div class="style-text d-flex justify-content-end align-items-end">
+						<span class="lp-img-header block-shadow-up">Style &amp; Design</span>
+					</div>
 				</div>
-			</div>
+			</a>
 			<h2 class="lp-img-header-mobile mb-0">Style &amp; Design</h2>
 			<div class="row m-auto mw-12 d-flex flex-row justify-content-center align-items-stretch">
 				<div class="col-md-4 pt-2 px-1">
@@ -233,12 +237,14 @@ if (have_posts()) :
 	<!-- Digital Marketing Block -->
 
 		<div class="center py-5 mw-12 m-auto">
-			<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/waves.jpg');">
-				<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/Landing/marketing-3-mobile.png">
-				<div class="style-text d-flex justify-content-end align-items-end">
-					<span class="lp-img-header block-shadow-up">Digital Marketing</span>
+			<a href="<?php echo get_site_url(); ?>/digital-marketing/">
+				<div class="m-auto p-5 px-5 bg-w lp-gallery-img block-shadow" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Landing/waves.jpg');">
+					<img class="img-desktop" src="<?php echo get_template_directory_uri(); ?>/img/Landing/marketing-3-mobile.png">
+					<div class="style-text d-flex justify-content-end align-items-end">
+						<span class="lp-img-header block-shadow-up">Digital Marketing</span>
+					</div>
 				</div>
-			</div>
+			</a>
 			<h2 class="lp-img-header-mobile mb-0">Digital Marketing</h2>
 			<div class="container-fluid mw-12">
 				<div class="row d-flex flex-row justify-content-center align-items-stretch">

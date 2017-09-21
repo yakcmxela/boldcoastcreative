@@ -64,7 +64,7 @@ if (have_posts()) :
 				<div class="col-lg-4 p-1" id="pricing">
 					<div class="section-text block-shadow p-3 bg-w">
 						<p><strong>Pricing</strong></p>
-						<p>All services come at an hourly rate of $40. This means that the total cost of any project we undertake will vary based on a number of factors. We will absolutely work within your budget, and after an initial meeting, I will be happy to provide an estimated final price. In cases where the project's scope is large, a down payment may be required. Recurring charges may also apply for domains, certain platforms (Shopify for example), and hosting.</p>
+						<p>All services come at an hourly rate of $50. This means that the total cost of any project we undertake will vary based on a number of factors. We will absolutely work within your budget, and after an initial meeting, I will be happy to provide an estimated final price. In cases where the project's scope is large, a down payment may be required. Recurring charges may also apply for domains, certain platforms (Shopify for example), and hosting.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 p-1">

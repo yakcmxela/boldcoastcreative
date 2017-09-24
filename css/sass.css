@@ -863,7 +863,7 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
     margin-bottom: 30px; }
 
   .the-page {
-    padding-top: 80px; }
+    padding-top: 12%; }
 
   .pageBanner-textContainer {
     transform: translateY(30px); }

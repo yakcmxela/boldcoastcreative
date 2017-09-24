@@ -81,12 +81,6 @@
 					<li><a href="<?php echo get_site_url(); ?>/contact-us">Contact</a></li>
 				</ul>
 			</div>
-			<form class="d-flex align-items-end flex-column mobile-msg">
-				<div class="chat-box right px-2">
-				<p>Please enter your message and someone will be with you as soon as possible.</p>
-				</div>
-				<input type="text" name="user-message">
-			</form>
 			<div class="mobile-buttons d-flex align-items-center py-4">
 				<a class="mobile-button mobileCall" href="tel:2075368270">
 					<i class="fa fa-phone fa-2x"></i>

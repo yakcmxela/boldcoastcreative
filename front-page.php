@@ -147,7 +147,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/dollar.png">
 							<h2 class="mb-1">Affordable</h2>
-							<p class="mb-2 p-3">Fairly priced web development completed within your budget.</p>
+							<p class="mb-2 p-3">Competitive rates and budget-friendly website development.</p>
 						</div>
 					</a>
 				</div>

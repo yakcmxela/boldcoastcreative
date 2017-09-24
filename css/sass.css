@@ -114,6 +114,7 @@ a {
   padding: 0 !important; }
 
 .the-page {
+  padding-top: 142px;
   -webkit-transition: 0.5s all linear;
   -o-transition: 0.5s all linear;
   -moz-transition: 0.5s all linear;
@@ -339,7 +340,11 @@ a {
   height: 95%; }
 
 #navDesktop {
-  display: block; }
+  display: block;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 100; }
 
 .bold-nav {
   text-align: center; }
@@ -563,6 +568,14 @@ a {
 
 .cta-button:hover {
   background-color: #73b0b5; }
+
+.contact-sticky {
+  position: fixed;
+  left: 0;
+  top: 20%;
+  background-color: #77c9d4;
+  color: white;
+  padding: 20px; }
 
 .title-shadow {
   text-shadow: 1px 3px 1px #4f4f4f; }
@@ -847,6 +860,9 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked {
   h2 {
     font-size: 24px;
     margin-bottom: 30px; }
+
+  .the-page {
+    padding-top: 80px; }
 
   .pageBanner-textContainer {
     transform: translateY(30px); }

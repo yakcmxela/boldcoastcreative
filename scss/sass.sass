@@ -134,6 +134,7 @@ a
 // Page Sizing
 
 .the-page
+	padding-top: 142px
 	+transition(.5s all linear)
 	overflow: hidden
 	min-height: 1px
@@ -344,6 +345,10 @@ a
 
 #navDesktop
 	display: block
+	position: fixed
+	background-color: white 
+	width: 100%
+	z-index: 100
 
 .bold-nav
 	text-align: center
@@ -550,6 +555,14 @@ a
 	background-color: $light-blue
 	
 // Landing Page
+
+.contact-sticky
+	position: fixed
+	left: 0
+	top: 20%
+	background-color: $lightest-blue
+	color: white
+	padding: 20px
 
 .title-shadow
 	text-shadow: 1px 3px 1px #4f4f4f
@@ -843,6 +856,8 @@ div.wpcf7-mail-sent-ok, div.wpcf7-spam-blocked
 	h2
 		font-size: 24px
 		margin-bottom: 30px
+	.the-page
+		padding-top: 80px
 	.pageBanner-textContainer
 		transform: translateY(30px)
 	.mobile-text-header

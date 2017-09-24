@@ -129,7 +129,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/responsive.png">
 							<h2 class="mb-1">Compatible</h2>
-							<p class="left p-3">Respnsive web design optimized for all mobile devices and platforms. Structured with the ideal balance of design and functionality.</p>
+							<p class="mb-2 p-3">Responsive website designs optimized for mobile devices of all sizes.</p>
 						</div>
 					</a>
 				</div>
@@ -138,7 +138,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/flexible.png">
 							<h2 class="mb-1">Flexible</h2>
-							<p class="left p-3">Pages built to adapt with your evolving needs. You'll be able to make changes to your website without hiring a developer.</p>
+							<p class="mb-2 p-3">Management systems built to adapt with your evolving business needs.</p>
 						</div>
 					</a>
 				</div>
@@ -147,7 +147,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="m-1 my-4" src="<?php echo get_template_directory_uri(); ?>/img/Icons/dollar.png">
 							<h2 class="mb-1">Affordable</h2>
-							<p class="left p-3">Offering a competitive hourly rate, and will work within your budget to create the perfect website for your business.</p>
+							<p class="mb-2 p-3">Fairly priced web development completed within your budget.</p>
 						</div>
 					</a>
 				</div>
@@ -184,7 +184,7 @@ if (have_posts()) :
 					<a href="<?php echo get_site_url(); ?>/design-media/">
 						<div class="d-flex flex-row align-items-center button-link p-2 block-shadow bg-w">
 							<i class="fa fa-camera-retro fa-3x m-3"></i>
-							<p class="left mb-0 p-3">Showcase your business and products. with our high end equipment and editing software.</p>
+							<p class="left mb-0 p-3">Showcase your business with high end equipment and editing software.</p>
 						</div>
 					</a>
 				</div>
@@ -208,7 +208,7 @@ if (have_posts()) :
 						<div class="button-link p-3 block-shadow bg-w">
 							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/ux.png">
 							<h2 class="mb-1">UX</h2>
-							<p class="left p-3">Easy to navigate pages. Logical user flow.  Enhance your customer experience and promote conversions.</p>
+							<p class="mb-2 p-3">Enhanced user experience with easy to navigate pages and logical flow.</p>
 						</div>
 					</a>
 				</div>
@@ -217,7 +217,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/branding.png">
 							<h2 class="mb-1">Branding</h2>
-							<p class="left p-3">Brilliant logos and unifying color pallettes. Seamlessly paired to fit your unique business identity.</p>
+							<p class="mb-2 p-3">Logos and color pallettes seamlessly paired with your business.</p>
 						</div>
 					</a>
 				</div>
@@ -226,7 +226,7 @@ if (have_posts()) :
 						<div class="button-link p-2 block-shadow bg-w">
 							<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/scale.png">
 							<h2 class="mb-1">Balance</h2>
-							<p class="left p-3">Find harmony in visual design principles: color, shape, texture, form, space, simplicity, and complexity.</p>
+							<p class="mb-2 p-3">Structured for the ideal balance of design and functionality.</p>
 						</div>
 					</a>
 				</div>
@@ -253,7 +253,7 @@ if (have_posts()) :
 							<div class="button-link p-2 block-shadow bg-w">
 								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/seo.png">
 								<h2 class="mb-1">SEO</h2>
-								<p class="left p-3"> Get discovered on platforms like Google and Bing. Generate organic traffic through search engine optimization.</p>
+								<p class="mb-2 p-3">Generate organic traffic through search engine optimization.</p>
 							</div>
 						</a>
 					</div>
@@ -262,7 +262,7 @@ if (have_posts()) :
 							<div class="button-link p-2 block-shadow bg-w">
 								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/ppc.png">
 								<h2 class="mb-1">Pay Per Click</h2>
-								<p class="left p-3">Put your business in front of the right audience. Data driven and cost-effective ads within your budget.</p>
+								<p class="mb-2 p-3">Data driven, cost-effective advertising within your budget.</p>
 							</div>
 						</a>
 					</div>
@@ -271,7 +271,7 @@ if (have_posts()) :
 							<div class="button-link p-2 block-shadow bg-w">
 								<img class="my-4 m-1" src="<?php echo get_template_directory_uri(); ?>/img/Icons/socialmedia.png">
 								<h2 class="mb-1">Social Media</h2>
-								<p class="left p-3">Expand your reach on social networks with multimedia content creation and highly targeted advertising.</p>
+								<p class="mb-2 p-3">Expand your reach with highly targeted social network campaigns.</p>
 							</div>
 						</a>
 					</div>

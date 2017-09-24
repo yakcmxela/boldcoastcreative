@@ -6,7 +6,7 @@
 	}
 	function get_bold_scripts() {
 		wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery'), true);
-		wp_enqueue_script('angular', get_template_directory_uri() . '/js/angular.min', array('jquery'), true);
+		// wp_enqueue_script('angular', get_template_directory_uri() . '/js/angular.min', array('jquery'), true);
 		wp_register_script('tether',  'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js', false, '1.4.0', true);
 		wp_enqueue_script('tether');
 		wp_register_script('bootstrap-js', 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', false, '4.0.0-alpha.6', true);
